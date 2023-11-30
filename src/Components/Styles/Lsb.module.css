@@ -1,0 +1,49 @@
+.left{
+    height: 100vh;
+    width: 17vw;
+    background-color: aliceblue;
+    background-color: white;
+    border-right: 1px solid black;
+}
+.logo{
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 11vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12px;
+}
+.optionswrap{
+    width: 90%;
+    height: 6.5vh;
+    display: flex;
+    border-radius: 0.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+.optionswrap:hover{
+    background-color:rgb(238, 238, 238);
+}
+.options{
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 10px;
+}
+.menu{
+    height: 17vh;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
